@@ -10,17 +10,18 @@ export default function Task1() {
   return (
     <Container>
       <h1>Unit 1 Homework</h1>
+      <div className="button">
+        <a href={file1} target="_blank">
+          Download PDF file
+        </a>
+      </div>
       <div className="images">
         <img src={A} alt="" />
         <img src={B} alt="" />
         <img src={C} alt="" />
         <img src={E} alt="" />
       </div>
-      <div className="button">
-        <a href={file1} target="_blank">
-          Download PDF file
-        </a>
-      </div>
+      
     </Container>
   );
 }
