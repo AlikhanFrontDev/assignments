@@ -1,12 +1,13 @@
-import Mainpage from "./pages/mainpage";
-import Task1 from "./pages/task1";
+import HomePage from "./pages/HomePage";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <Mainpage/>
-      <Task1/>
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<HomePage/>}/>
+      </Routes>
+    </>
   );
 }
 
